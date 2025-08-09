@@ -53,13 +53,13 @@ This single Python file contains **FastAPI backend** for predictions and **Strea
 git clone https://github.com/yourusername/insurance-premium-predictor.git
 cd insurance-premium-predictor
 
-2️⃣ Install dependencies
+## 2️⃣ Install dependencies
   pip install -r requirements.txt
 
-3️⃣ Run the application (API + UI)
+##3️⃣ Run the application (API + UI)
   Streamlit run app.py
 
-📊 Example API Request
+## 📊 Example API Request
    #POST http://127.0.0.1:8000/predict
     {
   "age": 30,
@@ -84,7 +84,7 @@ cd insurance-premium-predictor
   }
 }
 
-📜 License
+##📜 License
 MIT License
 
 ---
